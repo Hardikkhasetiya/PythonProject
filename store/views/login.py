@@ -28,3 +28,5 @@ class Login(View):
         print(customer)
         print(email, password)
         return render(request, 'login.html', {'error': error_message})
+
+
