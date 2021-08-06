@@ -1,7 +1,7 @@
 from django.urls import path
 from .views.home import Index
 from .views.signup import Signup
-from .views.login import Login ,logout
+from .views.login import Login , logout
 
 urlpatterns = [
     path('', Index.as_view(), name='homepage'),
